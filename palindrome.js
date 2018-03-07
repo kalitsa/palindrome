@@ -9,6 +9,6 @@ function Palindrome(str) {
 
 
 
-var pali = prompt("Please enter your word or phrase");
+var pali = prompt("Please enter your word or phrase. If it's a Palindrome, we will return 200. If not, we will return 400");
 Palindrome(pali);
 alert(Palindrome(pali));
